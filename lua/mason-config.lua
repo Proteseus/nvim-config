@@ -20,8 +20,7 @@ local servers = {
     "tsserver",
     "pyright",
     "prismals",
-    "yamlls",
-    "pyright"
+    "yamlls"
 }
 
 local settings = {

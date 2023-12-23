@@ -1,11 +1,14 @@
--- lsp-config.lua
+local lspconfig = require("lspconfig")
 
--- Learn the keybindings, see :help lsp-zero-keybindings
--- Learn to configure LSP servers, see :help lsp-zero-api-showcase
-local lsp = require('lsp-zero')
-lsp.preset('recommended')
-
--- (Optional) Configure lua language server for neovim
-lsp.nvim_workspace()
-
-lsp.setup()
+lspconfig.pyright.setup {}
+lspconfig.cssls.setup {}
+lspconfig.graphql.setup {}
+lspconfig.cssmodules_ls.setup {}
+lspconfig.rust_analyzer.setup {}
+lspconfig.html.setup {}
+lspconfig.dockerls.setup {}
+lspconfig.jsonls.setup {}
+lspconfig.lua_ls.setup {}
+lspconfig.tsserver.setup {}
+lspconfig.prismals.setup {}
+lspconfig.yamlls.setup {}
