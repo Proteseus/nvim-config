@@ -110,4 +110,9 @@ return {
         "tpope/vim-fugitive"
     },
 
+    -- Catppuccin
+    {
+        "catppuccin/nvim"
+    }
+
 }
