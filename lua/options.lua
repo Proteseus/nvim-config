@@ -2,6 +2,7 @@ local opt = vim.opt
 
 
 opt.autowrite = true -- Enable auto write
+opt.background = "dark"
 opt.clipboard = "unnamedplus" -- Sync with system clipboard
 opt.completeopt = "menu,menuone,noselect"
 opt.conceallevel = 3 -- Hide * markup for bold and italic
@@ -49,4 +50,4 @@ vim.g.markdown_recommended_style = 0
 
 --vim.cmd[[colorscheme tokyonight-night]]
 --vim.cmd[[colorscheme github_dark_default]]
-vim.cmd[[colorscheme omni]]
+vim.cmd[[colorscheme tokyodark]]

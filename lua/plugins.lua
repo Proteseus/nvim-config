@@ -120,8 +120,19 @@ return {
         "getomni/neovim"
     },
 
+    -- GitHub Theme
     {
         "projekt0n/github-nvim-theme"
-    }
+    },
+
+    -- Oxocarbon
+    {
+        "nyoom-engineering/oxocarbon.nvim"
+    },
+
+    -- Tokyodark
+    {
+        "tiagovla/tokyodark.nvim"
+    },
 
 }
