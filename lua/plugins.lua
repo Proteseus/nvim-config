@@ -113,6 +113,15 @@ return {
     -- Catppuccin
     {
         "catppuccin/nvim"
+    },
+
+    -- Omni
+    {
+        "getomni/neovim"
+    },
+
+    {
+        "projekt0n/github-nvim-theme"
     }
 
 }
