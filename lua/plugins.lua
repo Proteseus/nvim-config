@@ -78,19 +78,6 @@ return {
         "lewis6991/gitsigns.nvim",
     },
 
-    -- Codeium
-    {
-        "Exafunction/codeium.nvim",
-        dependencies = {
-            "nvim-lua/plenary.nvim",
-            "hrsh7th/nvim-cmp",
-        },
-        config = function()
-            require("codeium").setup({
-            })
-        end
-    },
-
     -- AutoClose
     {
         "m4xshen/autoclose.nvim"
