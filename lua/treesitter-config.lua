@@ -1,9 +1,12 @@
 -- treesitter-config.lua
 
+require 'nvim-treesitter.install'.compilers = { "gcc", "clang" }
+
 local configs = require("nvim-treesitter.configs")
+
 configs.setup {
   -- Add a language of your choice
-  ensure_installed = {"cpp", "python", "lua", "java", "javascript", "prisma", "dart"},
+  ensure_installed = {"python", "lua"},
   sync_install = false,
   ignore_install = { "" }, -- List of parsers to ignore installing
   highlight = {
