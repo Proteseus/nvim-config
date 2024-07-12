@@ -22,7 +22,8 @@ local servers = {
     "prismals",
     "yamlls",
     "sqlls",
-    "typos_lsp"
+    "typos_lsp",
+    "gopls"
 }
 
 local settings = {
@@ -50,5 +51,3 @@ if not lspconfig_status_ok then
 end
 
 local opts = {}
-
-

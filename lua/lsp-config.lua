@@ -1,6 +1,7 @@
 local lspconfig = require("lspconfig")
 
 lspconfig.pyright.setup {}
+lspconfig.gopls.setup {}
 lspconfig.cssls.setup {}
 lspconfig.graphql.setup {}
 lspconfig.cssmodules_ls.setup {}
