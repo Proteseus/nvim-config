@@ -122,4 +122,8 @@ return {
         "tiagovla/tokyodark.nvim"
     },
 
+    -- LiveServer
+    {
+        "ngtuonghy/live-server-nvim"
+    },
 }
