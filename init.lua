@@ -1,7 +1,7 @@
 require "keymaps"
 require "lazy-config"
 require "options"
-require "whichkey"
+require "which-key-config"
 require "neotree-config"
 require "lualine-config"
 require "bufferline-config"
