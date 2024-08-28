@@ -50,4 +50,7 @@ vim.g.markdown_recommended_style = 0
 
 --vim.cmd[[colorscheme tokyonight-night]]
 --vim.cmd[[colorscheme github_dark_default]]
+
+vim.lsp.inlay_hint.enable(true)
+
 vim.cmd[[colorscheme tokyodark]]
