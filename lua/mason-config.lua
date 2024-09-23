@@ -17,7 +17,7 @@ local servers = {
     "dockerls",
     "jsonls",
     "lua_ls",
-    "tsserver",
+    "ts_ls",
     "pyright",
     "prismals",
     "yamlls",
