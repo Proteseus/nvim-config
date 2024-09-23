@@ -10,6 +10,6 @@ lspconfig.html.setup {}
 lspconfig.dockerls.setup {}
 lspconfig.jsonls.setup {}
 lspconfig.lua_ls.setup {}
-lspconfig.tsserver.setup {}
+lspconfig.ts_ls.setup {}
 lspconfig.prismals.setup {}
 lspconfig.yamlls.setup {}
