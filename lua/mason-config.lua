@@ -17,13 +17,13 @@ local servers = {
     "dockerls",
     "jsonls",
     "lua_ls",
-    "ts_ls",
+    "tsserver",
     "pyright",
     "prismals",
     "yamlls",
     "sqlls",
     "typos_lsp",
-    "gopls"
+    "gopls",
 }
 
 local settings = {
@@ -40,6 +40,13 @@ local settings = {
 }
 
 mason.setup(settings)
+mason_lspconfig.setup_handlers({
+    function (server_name)
+        if server_name == "tsserver" then
+            server_name = "ts_ls"
+        end
+    end
+})
 mason_lspconfig.setup {
     ensure_installed = servers,
     automatic_installation = true,
