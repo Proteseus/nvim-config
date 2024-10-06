@@ -51,6 +51,10 @@ vim.g.markdown_recommended_style = 0
 --vim.cmd[[colorscheme tokyonight-night]]
 --vim.cmd[[colorscheme github_dark_default]]
 
+-- Enable the option to require a Prettier config file
+-- If no prettier config file is found, the formatter will not be used
+vim.g.lazyvim_prettier_needs_config = true
+
 vim.lsp.inlay_hint.enable(true)
 
 vim.cmd[[colorscheme tokyodark]]
