@@ -1,6 +1,5 @@
 local opt = vim.opt
 
-
 opt.autowrite = true -- Enable auto write
 opt.background = "dark"
 opt.clipboard = "unnamedplus" -- Sync with system clipboard
@@ -56,5 +55,5 @@ vim.g.markdown_recommended_style = 0
 vim.g.lazyvim_prettier_needs_config = true
 
 vim.lsp.inlay_hint.enable(true)
-
-vim.cmd[[colorscheme tokyodark]]
+vim.o.termguicolors = true
+vim.cmd'colorscheme catppuccin-mocha'
