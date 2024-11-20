@@ -133,9 +133,15 @@ return {
         'echasnovski/mini.nvim',
         version = false
     },
+
     -- MarkView
     {
         "OXY2DEV/markview.nvim",
         lazy = false,      -- Recommended
     },
+
+    -- Kanagawa theme
+    {
+        "rebelot/kanagawa.nvim"
+    }
 }
