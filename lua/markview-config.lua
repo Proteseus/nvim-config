@@ -1,6 +1,8 @@
 require("markview").setup({
     modes = { "n", "i", "no", "c" },
     hybrid_modes = { "i" },
+    -- Filetypes where the plugin is enabled
+    filetypes = { "markdown", "quarto", "rmd", "Avante" },
 
     -- This is nice to have
     callbacks = {
