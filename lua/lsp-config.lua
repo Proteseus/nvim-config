@@ -1,15 +1,13 @@
-local lspconfig = require("lspconfig")
-
-lspconfig.pyright.setup {}
-lspconfig.gopls.setup {}
-lspconfig.cssls.setup {}
-lspconfig.graphql.setup {}
-lspconfig.cssmodules_ls.setup {}
-lspconfig.rust_analyzer.setup {}
-lspconfig.html.setup {}
-lspconfig.dockerls.setup {}
-lspconfig.jsonls.setup {}
-lspconfig.lua_ls.setup {}
-lspconfig.ts_ls.setup {}
-lspconfig.prismals.setup {}
-lspconfig.yamlls.setup {}
+vim.lsp.enable('pyright')
+vim.lsp.enable('gopls')
+vim.lsp.enable('cssls')
+vim.lsp.enable('graphql')
+vim.lsp.enable('cssmodules_ls')
+vim.lsp.enable('rust_analyzer')
+vim.lsp.enable('html')
+vim.lsp.enable('dockerls')
+vim.lsp.enable('jsonls')
+vim.lsp.enable('lua_ls')
+vim.lsp.enable('ts_ls')
+vim.lsp.enable('prismals')
+vim.lsp.enable('yamlls')
