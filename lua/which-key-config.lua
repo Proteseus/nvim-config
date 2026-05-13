@@ -1,7 +1,7 @@
 local wk = require("which-key")
 
 local mappings = {
-    { "<leader>e", "<cmd>Neotree filesystem reveal left<cr>", desc = "Explorer", nowait = true, remap = false },
+    { "<leader>e", "<cmd>lua require('telescope.builtin').find_files()<cr>", desc = "Explorer (Find Files)", nowait = true, remap = false },
     { "<leader>f", group = "File Search", nowait = true, remap = false },
     { "<leader>fc", "<cmd>Telescope colorscheme<cr>", desc = "Colorscheme", nowait = true, remap = false },
     { "<leader>ff", "<cmd>lua require('telescope.builtin').find_files()<cr>", desc = "Find files", nowait = true, remap = false },
