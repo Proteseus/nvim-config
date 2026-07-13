@@ -39,6 +39,8 @@ local mappings = {
     { "<leader>sm", "<cmd>Telescope man_pages<cr>", desc = "Man Pages", nowait = true, remap = false },
     { "<leader>sr", "<cmd>Telescope registers<cr>", desc = "Registers", nowait = true, remap = false },
     { "<leader>w", "<cmd>w!<CR>", desc = "Save", nowait = true, remap = false },
+    { "<leader>t", group = "Toggle", nowait = true, remap = false },
+    { "<leader>tm", "<cmd>RenderMarkdown toggle<cr>", desc = "Toggle Markdown Render", nowait = true, remap = false },
 }
 
 wk.add(mappings)

@@ -55,4 +55,12 @@ return {
         "folke/which-key.nvim",
         lazy = true,
     },
+
+    -- Markdown rendering
+    {
+        "MeanderingProgrammer/render-markdown.nvim",
+        dependencies = { "nvim-treesitter/nvim-treesitter", "nvim-tree/nvim-web-devicons" },
+        ft = { "markdown", "norg", "rmd", "org" },
+        opts = {},
+    },
 }
