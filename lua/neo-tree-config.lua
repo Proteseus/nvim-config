@@ -105,9 +105,9 @@ neotree.setup({
   filesystem = {
     filtered_items = {
       visible = false, -- when true, they will just be displayed differently than normal items
-      hide_dotfiles = true,
-      hide_gitignored = true,
-      hide_hidden = true,
+      hide_dotfiles = false,
+      hide_gitignored = false,
+      hide_hidden = false,
     },
     follow_current_file = {
       enabled = true, -- This will find and focus the file in the active buffer every time the current file is changed
