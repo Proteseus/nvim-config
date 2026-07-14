@@ -7,3 +7,5 @@ require "treesitter-config"
 require "git-config"
 require "lsp-config"
 require "cmp-config"
+require "neo-tree-config"
+
