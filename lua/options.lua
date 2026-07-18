@@ -42,6 +42,15 @@ opt.undolevels = 10000
 opt.updatetime = 200
 opt.wildmode = "longest:full,full"
 opt.wrap = false
+opt.linebreak = true
+
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = { "markdown", "md" },
+  callback = function()
+    vim.opt_local.wrap = true
+    vim.opt_local.linebreak = true
+  end,
+})
 
 vim.g.markdown_recommended_style = 0
 vim.lsp.inlay_hint.enable(true)
